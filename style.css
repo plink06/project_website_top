@@ -2,6 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+div{
+    margin: 0;
 }
 ul{
     margin: 0;
@@ -45,14 +49,8 @@ a{
     align-items: center;
     background-color: cadetblue;
 }
-button{
-    padding: 4px 8px 4px 8px;
-    background-color: #3882f6;
-    border: none;
-    color: white;
-    border-radius: 10%;
-}
-.header,.content_one{
+
+.footer,.header,.content_one{
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -92,7 +90,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    padding: 50px;
     background-color: #e5e7eb;
 }
 .another_fucking_div{
@@ -102,12 +100,46 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 300px 50px 300px;
+    padding: 70px 300px 70px 300px;
 }
 .modal{
     display: flex;
     justify-content: space-between;
+    background-color: #e5e7eb;
+    align-items: center;
+    width: 900px;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 50px;
+    background-color: #3882f6;
+    color: white;
 }
 .btn{
-    flex: 0 0 0;
+    width: 75px;
+    border: 1px solid white;
+    padding: 4px 8px 4px 8px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+}
+.signin{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+html, body{
+    height:100%;
+ }
+ p{
+    margin:10px 0 15px 0;
+    padding: 0;
+ }
